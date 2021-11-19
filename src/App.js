@@ -1,6 +1,6 @@
 import "./App.css";
-import { LandingPage } from "./Components/LandingPage";
-import { QuestionsPage } from "./Components/QuestionsPage";
+import { LandingPage } from "./Pages/LandingPage";
+import { QuestionsPage } from "./Pages/QuestionsPage";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
