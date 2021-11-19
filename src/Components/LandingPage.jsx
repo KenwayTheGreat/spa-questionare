@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function LandingPage() {
+export function LandingPage() {
   return (
     <>
       <div className="row p-5 d-flex justify-content-center">
@@ -9,13 +10,13 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className="row p-5 d-flex justify-content-center">
+      <div className="row p-2 d-flex justify-content-center">
         <div className="col-5 text-center">
-          <button className="btn btn-primary">Generate Business Plan</button>
+          <Link to="/questions" className=" btn btn-primary">
+            Generate Business Plan
+          </Link>
         </div>
       </div>
     </>
   );
 }
-
-export default LandingPage;
