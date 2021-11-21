@@ -1,0 +1,6 @@
+ol {
+  list-style: upper-alpha;
+}
+li {
+  cursor: pointer;
+}
